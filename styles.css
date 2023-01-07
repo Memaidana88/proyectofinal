@@ -1,0 +1,111 @@
+
+@font-face{
+
+
+    font-family: elegido;
+    src: url(Anton-Regular.ttf);
+    }
+
+body{
+    font-family:elegido;
+    color: black;
+    text-shadow: 2px 2px greenyellow;
+    background-color: gray;
+   
+
+
+}
+
+
+
+section#myinfo{
+    background-color: rgb(127, 229, 255);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#myinfo h1{
+    
+    font-size: 3rem;
+}
+section#myinfo h2{
+    font-size: 2rem;
+}
+section#myinfo h3 {
+   
+     height: 100vh;
+    
+
+    background-color: lightgoldenrodyellow;
+    background-size:10% 10%;
+    background-position: 100% 0%;
+    margin:auto;
+    padding: 3rem;
+    width: 150px;
+    height: 200px;;
+
+    display: contents;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+section#contacto h4{
+    background-color: rgb(185, 173, 230);
+    height: auto;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+section#link {
+    background-color: rgb(32, 120, 178);
+    height: auto;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#Descripcion h6{
+    font-size: 3rem;
+    background-color: rgb(127, 204, 255);
+    height: auto;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center}
+
+    section#html5 {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center}
+
+    section#skill ul {
+       
+        direction: rtl;
+        margin-top: -150px;
+        
+        
+        
+    }
+    button#boton {
+       background-color: lawngreen;
+       padding: 18px 25px;
+    }
+  
+    button#boton2 {
+        background-color: lawngreen;
+        padding: 18px 25px;
+    }
+
